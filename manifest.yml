@@ -1,0 +1,9 @@
+---
+applications:
+- name: jmx-bridge-proxy
+  path: target/jmx-bridge-proxy-0.0.1-SNAPSHOT.jar
+  memory: 512M
+  env:
+    JMX_BRIDGE_HOST: 127.0.0.1
+    JMX_BRIDGE_USER: jmx_admin
+    JMX_BRIDGE_PASSWORD: jmx_password
